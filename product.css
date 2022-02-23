@@ -57,14 +57,14 @@ ul li.active a{
 
 .title{
 	position: absolute;
-	top: 35%;
+	top: 15%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
 
 .title h1{
 	color: white;
-	font-size: 80px;
+	font-size: 60px;
 }
 
 .button{
@@ -113,7 +113,7 @@ ul li.active a{
 
 }
 
-.card{
+.card1{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	margin: auto;
 	width: 270px;
@@ -124,21 +124,81 @@ ul li.active a{
 	transform: translate(-50%, -50%);
 }
 
-.card:hover{
+.card1:hover{
 	box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
 
 }
 
-.container{
+.container1{
 	padding:2px 16px;
 	background-color: transparent;
 
 }
 
-.container p{
+.container1 p{
 	color: white;
 }
 
-.container h3{
+.container1 h3{
+	color: white;
+}
+
+.card2{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin: auto;
+	width: 270px;
+	transition: 0.4s all;
+	position: absolute;
+	top: 60%;
+	left: 28%;
+	transform: translate(-50%, -50%);
+}
+
+.card2:hover{
+	box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.container2{
+	padding:2px 16px;
+	background-color: transparent;
+
+}
+
+.container2 p{
+	color: white;
+}
+
+.container2 h3{
+	color: white;
+}
+
+.card3{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin: auto;
+	width: 270px;
+	transition: 0.4s all;
+	position: absolute;
+	top: 60%;
+	left: 72%;
+	transform: translate(-50%, -50%);
+}
+
+.card3:hover{
+	box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.container3{
+	padding:2px 16px;
+	background-color: transparent;
+
+}
+
+.container3 p{
+	color: white;
+}
+
+.container3 h3{
 	color: white;
 }
